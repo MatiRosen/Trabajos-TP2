@@ -1,0 +1,18 @@
+{
+	"contenidoStr": "{\n  \"type\": \"module\",\n  \"name\": \"ejercicio-2\",\n  \"version\": \"0.0.1\",\n  \"description\": \"\",\n  \"main\": \"maptc.js\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",\n    \"start\": \"node index.js\",\n    \"watch\": \"nodemon index.js\"\n  },\n  \"author\": \"MatiRosen\",\n  \"license\": \"MIT\"\n}\n",
+	"contenidoObj": {
+		"type": "module",
+		"name": "ejercicio-2",
+		"version": "0.0.1",
+		"description": "",
+		"main": "maptc.js",
+		"scripts": {
+			"test": "echo \"Error: no test specified\" && exit 1",
+			"start": "node index.js",
+			"watch": "nodemon index.js"
+		},
+		"author": "MatiRosen",
+		"license": "MIT"
+	},
+	"size": 299
+}
