@@ -1,9 +1,9 @@
 import express from "express";
 
 const libros = [
-    { id: 1, nombre: "Harry Potter 1", precio: 10000, stock: 25 },
-    { id: 2, nombre: "Los juegos del Hambre", precio: 8500, stock: 50 },
-    { id: 3, nombre: "Correr o Morir", precio: 9000, stock: 7 },
+    { id: 1, titulo: "Harry Potter 1", autor: "J.K. Rowling", año: 1997 },
+    { id: 2, titulo: "Los juegos del Hambre", autor: "Suzanne Collins", año: 2008 },
+    { id: 3, titulo: "Correr o Morir", autor: "James Dashner", año: 2009 },
   ];
   
   const app = express();
