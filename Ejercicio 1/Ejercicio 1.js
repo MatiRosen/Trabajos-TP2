@@ -1,5 +1,4 @@
 import fs from "fs";
-import { sep } from "path";
 
 const leerArchivoComoString = async (ruta) => {
     try{
