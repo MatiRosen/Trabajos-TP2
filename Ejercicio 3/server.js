@@ -7,10 +7,9 @@ const libros = [
   ];
   
   const app = express();
-  app.use(express.static("public")); // Permite usar el front end de la carpeta public.
-  app.use(express.json()); // Sirve para que funcione el req.body() en el metodo POST con body en JSON.
+  app.use(express.static("public"));
+  app.use(express.json());
   
-
   // --------------------- GET ----------------------
   app.get("/api/libros/:id?", (req, res) => {
     const { id } = req.params;
@@ -30,11 +29,9 @@ const libros = [
     
     libros.push(libro);
     res.json(libro);
-    //res.redirect("/");
   });
-  
 
-  // ------- PUT (actualizacion total/parcial) ------
+  // -------------------- PUT -----------------------
   app.put("/api/libros/:id", (req, res) => {
     const id = Number(req.params.id);
     const libro = req.body;
